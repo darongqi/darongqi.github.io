@@ -1,0 +1,80 @@
+html,body{
+  margin:0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#container {
+  max-width: width 20em;
+  margin: 0 auto;
+  width:50em;
+}
+
+.intro_container {
+  height: 100vh;
+}
+
+/*profile picture*/
+#darong_avatar{
+  border-radius: 50%;
+  max-width: 20em;
+  display:block;
+  margin: 0px auto;
+  border: 5px solid;
+  border-color: #D3D3D3;
+  margin-top:15%;
+}
+
+#profile_image{
+  margin: 0px auto;
+}
+
+/*navbar*/
+.wrapper-masthead {
+  width: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+ul {
+  display:inline-block;
+  text-align: center;
+  margin:0 auto;
+}
+
+#firstnav {
+  display:inline-block;
+  margin: 0 auto;
+  margin-right:0;
+}
+
+#lastnav {
+  display:inline-block;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  border-width: 3px 0 0 0;
+  border-radius: 20px;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+/*intro block*/
+#intro_header {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/*about block*/
+#about_me > h1 {
+  text-align: center;
+}

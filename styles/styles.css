@@ -9,14 +9,17 @@ html::-webkit-scrollbar {
 }
 
 #container {
-  max-width: width 20em;
   margin: 0 auto;
   width:50em;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro_container {
-  padding-top:10%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*profile picture*/
@@ -24,7 +27,6 @@ html::-webkit-scrollbar {
   border-radius: 50%;
   max-width: 20em;
   display:block;
-  margin: 0px auto;
   border: 5px solid;
   border-color: #D3D3D3;
 }
@@ -37,13 +39,13 @@ html::-webkit-scrollbar {
 .wrapper-masthead {
   width: auto;
   text-align: center;
-  margin-top: 5%;
+  align-self: center;
+  margin-bottom: 0;
 }
 
 ul {
   display:inline-block;
   text-align: center;
-  margin:0 auto;
 }
 
 #firstnav {
@@ -64,14 +66,14 @@ hr {
   border-color: #D3D3D3;
   border-width: 3px 0 0 0;
   border-radius: 20px;
-  margin-bottom: 1%;
-  margin-top: 0%;
+  margin-top:0px;
+  width: 90%;
+  align-self: center;
 }
 
 /*intro block*/
 #intro_header {
   text-align: center;
-  margin-top: 5%;
 }
 
 /*about block*/

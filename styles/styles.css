@@ -29,6 +29,7 @@ html::-webkit-scrollbar {
   display:block;
   border: 5px solid;
   border-color: #D3D3D3;
+  margin-bottom: 20%;
 }
 
 #profile_image{
@@ -74,6 +75,7 @@ hr {
 /*intro block*/
 #intro_header {
   text-align: center;
+  margin-top: 10%;
 }
 
 /*about block*/

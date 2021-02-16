@@ -15,6 +15,7 @@ html::-webkit-scrollbar {
 }
 
 .intro_container {
+  padding-top:10%;
   height: 100vh;
 }
 
@@ -26,7 +27,6 @@ html::-webkit-scrollbar {
   margin: 0px auto;
   border: 5px solid;
   border-color: #D3D3D3;
-  margin-top:15%;
 }
 
 #profile_image{
@@ -37,7 +37,7 @@ html::-webkit-scrollbar {
 .wrapper-masthead {
   width: auto;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 ul {

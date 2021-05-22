@@ -41,7 +41,7 @@
             <a class="nav-link" name="projects">Projects</a>
           </li>
           <li class="nav-item" id="lastnav">
-            <a class="nav-link" name="blog" href="#">Blog</a>
+            <a class="nav-link disabled" name="blog" href="#">Blog</a>
           </li>
         </ul>
         <!--Breaking Line-->
@@ -72,6 +72,7 @@
       <!--Skills and Experiences-->
       <div id="skills">
         <h3 id="skills_subheader">Skills</h2>
+        <hr/>
         <h4>Software</h3>
         <ul>
           <li>Python</li>
@@ -80,6 +81,7 @@
         <h4>Web/Mobile</h3>
         <ul>
           <li>HTML/CSS</li>
+          <li>JavaScript/ReactJS</li>
           <li>PostgreSQL/MySQL</li>
         </ul>
         <h4>Miscellaneous</h3>
@@ -90,8 +92,9 @@
       </div>
       <div id="experience">
         <h3 id="experience_subheader">Work Experience</h3>
-        <h4>Goldschen-Ohm Lab</h4>
-        <p>Worked under Dr. Goldschen-Ohm in the department of Neuroscience at the University of Texas at Austin. Conducted statistical analysis using Matlab.</p>
+        <hr/>
+        <h4>Undergraduate Research Assistant</h4><h6>Goldschen-Ohm Lab</h6>
+        <p>Studied properties of Cyclic Nucleotide-Gated (CNG) ion channels through fluorescence techniques. Currently pending publication. Used MATLAB and <a href="https://qub.mandelics.com/">QuB</a> to create Hidden Markov Models and conduct data analysis.</p>
       </div>
     </div>
     <!--Breaking Line-->
@@ -99,13 +102,33 @@
     <!--Projects-->
     <div id="project_container" class="body_wrapper section_wrapper animated fadeInUp">
       <h1>Projects</h1>
-      <div class="card bg-light mb-3" style="max-width: 18rem;" id="project_card">
-        <div class="card-header">This Website</div>
-        <div class="card-body">
-          <h5 class="card-title">darongqi.github.io</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!--<a href = "https://github.com/darongqi/darongqi.github.io">-->
+      <div id="card_container">
+        <div class="card bg-light mb-3" style="max-width: 18rem;" id="project_card">
+          <div class="card-header">Academic Publication</div>
+          <div class="card-body">
+            <h5 class="card-title">Ion Channel Paper</h5>
+            <p class="card-text">Title: Single-molecule imaging with cell-derived nanovesicles reveals early binding dynamics at a cyclic nucleotide-gated ion channel</p>
+          </div>
         </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem;" id="project_card">
+          <div class="card-header">This Website</div>
+          <div class="card-body">
+            <h5 class="card-title">Personal Website</h5>
+            <p class="card-text">Simple personal website built with vanilla HTML/CSS and a little sprinkling of JavaScript.</p>
+          </div>
+        </div>
+        <!--
+        <div class="card bg-light mb-3" style="max-width: 18rem;" id="project_card">
+          <div class="card-header">This Website</div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://github.com/darongqi/darongqi.github.io" class="stretched-link">Personal Website</a></h5>
+            <p class="card-text">Simple personal website built with vanilla HTML/CSS and a little JavaScript.</p>
+          </div>
+        </div>
+      -->
       </div>
+      <!--</a>-->
       <div></div>
     </div>
     <!--Breaking Line-->

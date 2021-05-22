@@ -262,33 +262,60 @@ hr {
   text-align: center;
 }
 
-/*skills subsection*/
-#skills {
-  width: 50%;
+/*experience subsection*/
+#experience {
+  width: 70%;
   float: left;
   text-align: left;
 }
 
-#skills_subheader {
+#experience_subheader {
   text-align: left;
 }
 
-/*experience subsection*/
-#experience {
-  width: 50%;
+/*skills subsection*/
+#skills {
+  width: 30%;
   float: right;
+  text-align: right;
+  list-style-type: none;
+}
+
+#skills_subheader {
   text-align: right;
 }
 
-#experience_subheader {
-  text-align: right;
+#skills > ul {
+  list-style-type: none;
 }
 
 /*project block*/
 #project_container {
   padding-top: 10%;
 }
+#card_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
 .card {
+  display: block;
   position: relative;
-  z-index: -1;
+  margin-right: 0;
+}
+
+h5 a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h5 a:hover {
+  color: inherit;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
 }
